@@ -1,8 +1,8 @@
 ﻿# HuggingChat_CLI
 
 This project is a simple, modular command-line chatbot that runs a small Hugging Face language model locally. It is designed to hold a coherent conversation by maintaining a short-term "memory" of the most recent turns.
+<img width="1373" height="473" alt="image" src="https://github.com/user-attachments/assets/8fca452f-2340-4a89-9ef7-c6fb0a35e798" />
 
-[cite_start]This was created to fulfill the ATG Technical Assignment for the Machine Learning Intern role[cite: 1].
 
 ## Features
 
@@ -81,4 +81,5 @@ graph TD
     L --> M["Trim History if Needed<br>(chat_memory.trim_history)"];
     M --> C;
 		
+
 
