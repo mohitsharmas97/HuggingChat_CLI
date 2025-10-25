@@ -5,7 +5,7 @@ class ChatMemory:
     It builds a prompt telling the model to answer a question
     based on the previous context.
     """
-    def __init__(self, max_turns=3):
+    def __init__(self, max_turns=5):
         """
         Initializes the memory.
         :param max_turns: The number of user/bot turn *pairs* to remember.

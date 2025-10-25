@@ -13,7 +13,7 @@ def main():
         return
 
     # 2. Initialize Memory
-    memory = chat_memory.ChatMemory(max_turns=3) 
+    memory = chat_memory.ChatMemory(max_turns=5) 
     
     print("\n--- Local Chatbot Initialized (using flan-t5-small) ---")
     print("Type your message and press Enter. Type '/exit' to quit.")

@@ -5,7 +5,7 @@ def load_model():
     Loads the 'google/flan-t5-small' model, which is good
     at following instructions and answering questions.
     """
-    model_name = "google/flan-t5-small"
+    model_name = "google/flan-t5-large"
     print(f"Loading model '{model_name}'...")
     try:
         # Use "text2text-generation" pipeline for instruction-following models
