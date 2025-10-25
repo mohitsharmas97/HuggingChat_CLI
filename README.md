@@ -66,7 +66,7 @@ This flow, especially the "sliding window" memory, allows the bot to understand 
 
 graph TD
     Start(Start Application) --> A["Load Model via model_loader.py"];
-    A --> B["Initialize ChatMemory(max_turns=3)"];
+    A --> B["Initialize ChatMemory(max_turns=5)"];
     B --> C{"Wait for User Input"};
     C --> D["Get User Input"];
     D --> E{"Input == /exit?"};
@@ -81,5 +81,6 @@ graph TD
     L --> M["Trim History if Needed<br>(chat_memory.trim_history)"];
     M --> C;
 		
+
 
 
