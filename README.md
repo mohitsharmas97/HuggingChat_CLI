@@ -7,7 +7,7 @@ This project is a simple, modular command-line chatbot that runs a small Hugging
 ## Features
 
 * [cite_start]**Local Model:** Runs `google/flan-t5-small` entirely on your local machine (no API keys needed)[cite: 12].
-* [cite_start]**Conversational Memory:** Remembers the last 3 turns of conversation using a sliding window mechanism[cite: 14].
+* [cite_start]**Conversational Memory:** Remembers the last 5 turns of conversation using a sliding window mechanism[cite: 14].
 * [cite_start]**Modular Code:** The project is split into three clear modules[cite: 18]:
     * `model_loader.py`: Handles loading the model and tokenizer pipeline.
     * `chat_memory.py`: Manages the conversational history.
@@ -81,6 +81,7 @@ graph TD
     L --> M["Trim History if Needed<br>(chat_memory.trim_history)"];
     M --> C;
 		
+
 
 
 
